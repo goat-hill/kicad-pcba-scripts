@@ -8,5 +8,6 @@ Most code written by GPT-4...
 
 ```sh
 python3 ~/code/kicad-jlcpcb-scripts/bom_convert.py bom.csv > bom-jlcpcb.csv
-python3 ~/code/kicad-jlcpcb-scripts/pip_convert.py pip.csv/your-proj-all-pos.csv > pip-jlcpcb.csv
+python3 ~/code/kicad-jlcpcb-scripts/pip_convert.py pip.csv/your-proj-all-pos.csv \
+  > pip-jlcpcb.csv
 ```
